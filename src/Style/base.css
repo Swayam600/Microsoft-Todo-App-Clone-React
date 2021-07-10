@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: 0.1s
+}
+
+:root {
+
+	/* icons color */
+	--grey: #969090;
+	--green: #78b478;
+	--red: #f87b7b;
+	--white: #e2e2e2;
+}
+
+body {
+	font-family: 'Roboto', monospace;
+}
+
+.app {
+	width: 100vw;
+	margin: 0;
+	overflow-x: hidden;
+	/*background-color: var(--main);*/
+	min-height: 100vh;
+}

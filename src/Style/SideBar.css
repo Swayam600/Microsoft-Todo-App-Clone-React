@@ -1,0 +1,80 @@
+.sb {
+	background:  var(--main);
+	position:  relative;
+	top:  0;
+	left:  0;
+	height:  100vh;
+	width:  100vw;
+	padding:  0 5px;
+	max-width:  70px;
+	transition:  0.3s;
+	transition-delay:  0.3s;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.sb__link {
+	width:  90%;
+	margin:  10px auto;
+	transition:  0.3s;
+	padding:  5px;
+	border-radius:  5px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	min-height:  50px;
+	font-size:  20px;
+	color:  var(--text);
+}
+
+.sb:hover {
+	max-width: 350px;
+}
+
+.sb:hover .text {
+	opacity:  1;
+}
+
+.sb__link:hover {
+	background-color:  var(--hover-main);
+}
+
+.sb__account {
+	height:  60px;
+	font-size:  16px;
+}
+
+.account__circle {
+	--width:  40px;
+	background-color: var(--red);
+	border-radius:  50%;
+	min-width: var(--width);
+	min-height:  var(--width);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:  20px;
+	margin-right:  15px;
+}
+
+.close {
+	margin-top:  auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fas, .far {
+	margin-right:  20px;
+	margin-left:  10px;
+}
+
+
+.text {
+	opacity:  0;
+	transition:  0.3s;
+	transition-delay:  0.5s;
+	pointer-events: none;
+}
+

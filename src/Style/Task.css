@@ -1,0 +1,50 @@
+.task {
+	width:  100%;
+	display:  flex;
+	align-items:  center;
+	min-height:  40px;
+	color:  var(--text);
+	margin:  10px 0;
+	background:  var(--main);
+	padding:  10px;
+	border-radius:  5px;
+}
+
+.completed {
+	width:  30px;
+	height:  30px;
+	border-radius:  50%;
+	background-color:  var(--text);
+	border:  none;
+	outline:  none;
+	margin-right:  20px;
+	border: 3px solid transparent;
+}
+
+.completed.true { background: var(--hover-main); border-color: var(--green) }
+.completed.false {background:  var(--hover-main)}
+
+.completed .fa-check {
+	color:  var(--green);
+	font-size:  18px;
+	margin:  0;
+}
+
+.task__star {
+	margin-left:  auto;
+	width:  40px;
+	height:  40px;
+	padding:  0;
+	font-size:  20px;
+	background:  transparent;
+	border:  none;
+	outline:  none;
+}
+
+.task__star .fa-star {
+	color:  var(--green);
+}
+
+.far.fa-star {
+	color:  var(--text);
+}

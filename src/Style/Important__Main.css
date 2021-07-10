@@ -1,0 +1,11 @@
+.important {
+	padding: 20px;
+	background-color: var(--hover-main);
+	width: 100%;
+	color: var(--text)
+}
+
+.important__heading {
+	font-size: 30px;
+	color: var(--text)
+}
