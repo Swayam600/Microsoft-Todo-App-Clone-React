@@ -33,12 +33,11 @@
 	left:  1rem;
 	right:  1rem;
 	bottom:  1rem;
-	/*border:  2px solid white;*/
-	width:  90%;
+	/* border:  2px solid white; */
 	height:  80px;
 	display:  flex;
 	align-items:  center;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .input__field, .add-btn {
@@ -47,10 +46,10 @@
 	border:  none;
 	outline:  none;
 	background:  var(--main);
-	border-radius:  5px;
 	color:  var(--text);
 	font-size:  18px;
 	padding-left:  20px;
+	border-left: 2px solid var(--text);
 }
 
 .add-btn {

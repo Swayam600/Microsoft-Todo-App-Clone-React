@@ -16,6 +16,8 @@ function SettingsMain() {
 			theme: theme
 		})
 	}, [theme])
+
+	const DisplayIcon = theme === 'dark' ? <i className="fas fa-times times"></i> : <i className="fas fa-check check"></i>
 	
 
 	return (
@@ -23,9 +25,9 @@ function SettingsMain() {
 			<h2 className="settings__heading">Settings</h2>
 			<div className="settings__main">
 				<div className="setting__line">
-					<span className="line__command">Toggle Light Mode</span> k
+					<span className="line__command">Toggle Light Mode</span>
 					<span className="line__checkbox" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-						{ theme === 'dark' ? <i className="fas fa-times times"></i> : <i className="fas fa-check check"></i> }
+						{ DisplayIcon }
 					</span>
 				</div>
 			</div>
@@ -34,3 +36,4 @@ function SettingsMain() {
 }
 
 export default SettingsMain
+

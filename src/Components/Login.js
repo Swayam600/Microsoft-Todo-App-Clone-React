@@ -31,6 +31,7 @@ function Login() {
 
 	return (
 		<div className="form__container">
+			<h2 className="form__heading head1">Microsoft Todo App Clone</h2>
 			<div className="form">
 				<h2 className="form__heading">Log In</h2>
 				<strong>Name</strong>

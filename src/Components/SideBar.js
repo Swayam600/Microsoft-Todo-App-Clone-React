@@ -13,7 +13,7 @@ function SideBar() {
 
 	let [ firstName, lastName ] = ['', '']
 
-	if (user.name.split(' ').length === 2) {
+	if (user.name.split(' ').length >= 2) {
 		firstName = user.name.split(' ')[0][0]
 		lastName = user.name.split(' ')[1][0]
 	} else {

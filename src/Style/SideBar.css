@@ -30,6 +30,7 @@
 
 .sb:hover {
 	max-width: 350px;
+	width: 100vw;
 }
 
 .sb:hover .text {
@@ -78,3 +79,8 @@
 	pointer-events: none;
 }
 
+@media screen and (max-width: 550px) {
+	.sb {
+		width: 60px;
+	}
+}

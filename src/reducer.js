@@ -2,7 +2,7 @@ export const initialState = {
 	user: {
 		name: 'Swayam Bhoir',
 		email: 'swayambhoir5600@gmail.com',
-		isLoggedIn: true
+		isLoggedIn:	false 
 	},
 	theme: 'dark',
 	sideBarOpen: true,

@@ -4,8 +4,9 @@
 	background:  var(--main);
 	margin:  0;
 	display: flex;
-	justify-content: center;
-	align-items:  flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:  center;
 	padding-top:  20vh;
 }
 
@@ -26,6 +27,13 @@
 
 .form__heading {
 	margin: 20px auto;
+	color: var(--text);
+}
+
+.head1 {
+	font-size: 30px;
+	margin: 0;
+	margin-bottom: 20px;
 }
 
 strong {
